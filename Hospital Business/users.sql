@@ -42,17 +42,17 @@ TRUNCATE users; -- vuelve el contador a 0
 
 # Carga selectiva de datos
 INSERT INTO users(username, userpass)
-VALUES ('cristian', 'root');
+VALUES ('daniel', 'root');
 
 INSERT INTO users(username, employee, userpass)
-VALUES ('c215714n', true, 'r00t');
+VALUES ('dj36', true, 'r00t');
 
 # Carga Multiple
 INSERT INTO users(username, userpass)
 VALUES	('Maria', 'pass'),
 		('R4m1r0','user'),
-        ('Damian','access'),
-        ('c215714n!#','vtodyosm'),
+        ('Cristopher','access'),
+        ('dj36!#','vtodyosm'),
         ('admin','d48w58qj');
 
 # consulta general de datos
@@ -72,4 +72,4 @@ WHERE id BETWEEN 3 AND 7; -- condicion: entre 3 y 7 inclusive
 ## definicion de usuarios (empleados)
 UPDATE users
 SET employee = 1 -- valor de actualizacion
-WHERE username IN('Maria','c215714n!#','admin'); -- condicion: cuyo nombre de usuario sea igual
+WHERE username IN('Maria','dj36!#','admin'); -- condicion: cuyo nombre de usuario sea igual
