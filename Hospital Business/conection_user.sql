@@ -31,9 +31,9 @@ ON hospital_business.*
 TO 'invited'@'localhost';
 
 /* Usuario Desarrollador */
-DROP USER IF EXISTS 'c215714n'@'localhost';
-CREATE USER 'c215714n'@'localhost'
-IDENTIFIED BY 'vtodyosmd48w58qh';
+DROP USER IF EXISTS 'dj30'@'localhost';
+CREATE USER 'dj30'@'localhost'
+IDENTIFIED BY 'abcde';
 GRANT CREATE, DROP, ALTER
 ON hospital_business.*
-TO 'c215714n'@'localhost';
+TO 'dj30'@'localhost';
