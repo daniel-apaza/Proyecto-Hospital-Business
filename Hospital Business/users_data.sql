@@ -84,7 +84,7 @@ VALUES 	('cuil'),		-- 1
 
 # Carga de datos de usuario
 INSERT INTO users_data(userId, first_name, second_name, last_name, birthdate, gender, nationality, uid, doctype, phone, email)
-VALUES (1, 'Cristian','Damian','Racedo','1991-04-18', 1, 1, '20-35336446-5', 1, '(54911)0303-4567', 'cristiandracedo@hotmail.com');
+VALUES (1, 'Daniel','Josué','Apaza','1998-06-30', 1, 6, '20-35336446-5', 1, '947331101', 'danielprueba3006@gmail.com');
 
 # Carga por asignacion
 INSERT INTO users_data
